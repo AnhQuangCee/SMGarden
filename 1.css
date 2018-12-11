@@ -1,0 +1,498 @@
+*{margin:0;padding:0; }
+ html,body{
+ 	height: 100%;
+ 	width: 100%;
+ 	overflow-x: hidden;
+ }
+ ::selection{
+ 	color: white;
+ 	background: #7ABA1E;
+ };
+
+/*MENU*/
+
+/*HOME*/
+
+/*PORTFOLIO*/
+.portfolio{
+	padding: 3% 0%;
+}
+.portfolio h1{
+ 	text-transform: uppercase;
+ 	font-family: 'Montserrat', sans-serif;
+}
+.portfolio p{
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 20px;
+ 	padding-bottom: 2%;
+}
+.portfolio .col-md-4 p{
+	font-size: 19px;
+}
+
+/*ABOUT*/
+.about{
+	background-color: #F3F3F3;
+	padding: 3% 0%;
+}
+.about h1{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.about p{
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 20px;
+}
+.about .profile{
+	padding-top: 2%
+}
+.about .profile h3{
+	font-style: bold;
+}
+.about .profile .icon{
+	font-size: 20px;
+	color: white;
+}
+.about .btn-success{
+	padding: 10px 50px;
+	font-size: 19px;
+	border-radius: 60px;
+	margin: 3% 0%;
+	transition: 0.4s;
+}
+.about .profile img{
+	border: 7px solid white;
+	border-radius: 50%;
+}
+.about i{
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	border: 1px solid gray;
+	border-radius: 50%;
+	line-height: 40px;
+}
+/*CONTACT*/
+
+.contact{
+	background-image: url(images/2.jpg);
+	height: 80%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact h1{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 5%;
+	color: white;
+}
+.contact p{
+	font-family: 'Montserrat', sans-serif;
+ 	font-size: 20px;
+ 	padding-bottom: 2%;
+ 	color: white;
+}
+.contact .contactForm{
+	padding: 0% 0% 5% 5%;
+}
+.contact .contactForm1{
+	background-color: white;
+	padding: 3% 3%;
+	border-radius: 5px;
+}
+.contact .contactForm .btn-success{
+	padding: 10px 0px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	border-radius: 5px;
+}
+.contact h1.choose{
+	font-family: 'Oregano', cursive;
+	text-transform: capitalize;
+	font-size: 50px;
+}
+ /*COPYRIGHT*/
+ .copyright{
+ 	padding-top: 20px;
+ 	padding-bottom: 16px;
+ 	background-color: #EAEAEA;
+ }
+ .copyright b{
+ 	color: black;
+ }
+ .copyright b{
+ 	font-size: 20px;
+ 	padding-left: 5px;
+ }
+
+
+/*RESPONSIVE 640px*/
+/* ----------- iPhone 4 and 4S ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+ 
+}
+ 
+/* ----------- iPhone 5 and 5S ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+ 	
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.portfolio h1{
+  		font-size: 20px;
+  	}
+  	.portfolio p{
+  		font-size: 10px;
+  		padding: 0px 15px;
+  	}
+  	.portfolio img{
+  		width: 80%;
+  		height: 80%;
+  		margin: auto;
+  	}
+  	.portfolio .col-md-4 p{
+  		font-size: 10px;
+  	}
+
+  	.about h1{
+  		font-size: 20px;
+  	}
+  	.about p{
+  		font-size:10px;
+  		padding: 0px 15px;
+  	}
+  	.about img{
+  		height: 70%;
+  		width: 70%;
+  	}
+  	.about .profile h3{
+  		font-size: 20px;
+  	}
+  	.about .profile p{
+  		font-size: 13px;
+  	}
+  	.about .icon i{
+  		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		line-height: 30px;
+  	}
+  	.about .profile .icon{
+		font-size: 15px;
+	}
+	.about .btn-success{
+		height: 40px;
+		width: 120px;
+		font-size: 15px;
+		border-radius: 20px;
+		transition: 0.4s;
+		padding:7px 10px;
+	}
+
+	.contact h1{
+		font-size: 20px;
+	}
+	.contact p{
+  		font-size:10px;
+  		padding: 0px 15px;
+	}
+	.contact{
+		margin:0;
+	}
+	.contact .row {
+		margin:0;
+	}
+	.contact .contactForm h1{
+		font-size: 25px;
+		padding-left: 10px;
+		margin:0px;
+		padding-top:0px;
+	}
+	.contact .contactForm{
+		padding:0px;
+	}
+	.contact .contactForm p{
+		margin:0;
+	}
+	.contact .contactForm1 .btn-success{
+		font-size: 15px;
+	}
+	.copyright{
+		padding:5px;
+	}
+	.copyright b{
+		font-size:15px;
+	}
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+ .portfolio h1{
+  		font-size: 20px;
+  	}
+  	.portfolio p{
+  		font-size: 10px;
+  		padding: 0px 15px;
+  	}
+  	.portfolio img{
+  		width: 80%;
+  		height: 80%;
+  		margin: auto;
+  	}
+  	.portfolio .col-md-4 p{
+  		font-size: 10px;
+  	}
+
+  	.about h1{
+  		font-size: 20px;
+  	}
+  	.about p{
+  		font-size:10px;
+  		padding: 0px 15px;
+  	}
+  	.about img{
+  		height: 70%;
+  		width: 70%;
+  	}
+  	.about .profile h3{
+  		font-size: 20px;
+  	}
+  	.about .profile p{
+  		font-size: 13px;
+  	}
+  	.about .icon i{
+  		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		line-height: 30px;
+  	}
+  	.about .profile .icon{
+		font-size: 15px;
+	}
+	.about .btn-success{
+		height: 40px;
+		width: 120px;
+		font-size: 15px;
+		border-radius: 20px;
+		transition: 0.4s;
+		padding:7px 10px;
+	}
+
+	.contact h1{
+		font-size: 20px;
+	}
+	.contact p{
+  		font-size:10px;
+  		padding: 0px 15px;
+	}
+	.contact{
+		margin:0;
+	}
+	.contact .row {
+		margin:0;
+	}
+	.contact .contactForm h1{
+		font-size: 25px;
+		padding-left: 10px;
+		margin:0px;
+		padding-top:0px;
+	}
+	.contact .contactForm{
+		padding:0px;
+	}
+	.contact .contactForm p{
+		margin:0;
+	}
+	.contact .contactForm1 .btn-success{
+		font-size: 15px;
+	}
+	.copyright{
+		padding:5px;
+	}
+	.copyright b{
+		font-size:15px;
+	}
+}
+ 
+/* ----------- iPhone 6 ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+ 	 	.portfolio h1{
+  		font-size: 20px;
+  	}
+  	.portfolio p{
+  		font-size: 14px;
+  		padding: 0px 15px;
+  	}
+  	.portfolio img{
+  		width: 80%;
+  		height: 80%;
+  		margin: auto;
+  	}
+  	.portfolio .col-md-4 p{
+  		font-size: 14px;
+  	}
+
+  	.about h1{
+  		font-size: 20px;
+  	}
+  	.about p{
+  		font-size:14px;
+  		padding: 0px 15px;
+  	}
+  	.about img{
+  		height: 70%;
+  		width: 70%;
+  	}
+  	.about .profile h3{
+  		font-size: 24px;
+  	}
+  	.about .profile p{
+  		font-size: 16px;
+  	}
+  	.about .icon i{
+  		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		line-height: 30px;
+  	}
+  	.about .profile .icon{
+		font-size: 15px;
+	}
+	.about .btn-success{
+		height: 40px;
+		width: 120px;
+		font-size: 15px;
+		border-radius: 20px;
+		transition: 0.4s;
+		padding:7px 10px;
+	}
+
+	.contact h1{
+		font-size: 20px;
+	}
+	.contact p{
+  		font-size:14px;
+  		padding: 0px 15px;
+	}
+	.contact{
+		margin:0;
+	}
+	.contact .row {
+		margin:0;
+	}
+	.contact .contactForm h1{
+		font-size: 30px;
+		padding-left: 10px;
+		margin:0px;
+		padding-top:0px;
+	}
+	.contact .contactForm{
+		padding:0px;
+	}
+	.contact .contactForm p{
+		margin:0;
+	}
+	.contact .contactForm1 .btn-success{
+		font-size: 15px;
+	}
+	.copyright{
+		padding:5px;
+	}
+	.copyright b{
+		font-size:15px;
+	}
+	.copyright p{
+		font-size:17px
+	}
+}
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+ 
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+ 
+}
+ 
+/* ----------- iPhone 6+ ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+ 
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+ 
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+ 
+}
