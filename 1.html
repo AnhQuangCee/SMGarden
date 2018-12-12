@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<!-- <link rel="stylesheet" href="vendor/fontawesome.css"> -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
- 	<link rel="stylesheet" href="1.css">
+ 	<link rel="stylesheet" href="css/1.css">
 </head>
 <body data-spy="scroll" data-target=".menu" data-offset="50">
     <div class="menu navbar-inverse navbar-fixed-top">
@@ -38,11 +38,58 @@
 			            <li><a href="#"><i class="fas fa-sign-in-alt"></i>	Sign out</a></li>
 			          </ul>
 			        </li>
+			        <li><a type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Sign up</a></li>
     			</ul>
     		</div>
     	</div>
     </div>
     <!-- end menu -->
+	
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	      		<div class="modal-body">
+  					<div class="container-fluid">
+		    			<div class="row1">
+		    				<div class="col-md-6"></div>
+		    				<div class="col-md-6">
+		    					<h3>Member login</h3>
+		    				</div>
+		    			</div>
+		    			<div class="row2">
+		    				<div class="col-md-5">
+		    					<img src="images/profile.png" alt="" height="80%" width="80%">
+		    				</div>
+		    				<div class="col-md-7">
+		    					<form>
+						          <div class="form-group">
+						          	<div class="input-group input-group-lg">
+							          	<span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+							            <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+						          	</div>
+						          </div>
+						          <div class="form-group">
+							          <div class="input-group input-group-lg">
+							          	<span class="input-group-addon"><i class="fas fa-unlock-alt"></i></span>
+							            <input type="Password" class="form-control" id="message-text" placeholder="Password"></input>
+						        	  </div>
+						          </div>
+						        </form>
+						        <div class="btn-primary btn-block text-center">LOGIN</div>
+						        <div class="text-center">
+						        	<a href="">Forgot user name | </a><a href="">Password</a>
+						        	<br><br>
+						        	<p>Copyright <i class="far fa-copyright"></i> Smart Garden 2018</p>
+						        </div>
+		    				</div>
+		    			</div>
+			 		</div>
+				</div>
+	    	</div>
+	  	</div>
+	</div>
+	<!-- end modal -->
 
     <div class="home" id="home">
     	<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -198,5 +245,6 @@
         </div>
       </div>
     </div>
+    <script src="js/1.js"></script>
 </body>
 </html>

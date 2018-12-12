@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<!-- <link rel="stylesheet" href="vendor/fontawesome.css"> -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
- 	<link rel="stylesheet" href="ControlByHand.css"></head>
+ 	<link rel="stylesheet" href="css/ControlByHand.css"></head>
 <body>
 	<div class="header">
 		<div class="nav text-center">
@@ -46,10 +46,10 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 template">
-					
+					<div id="container"></div>
 				</div>
-				<div class="col-md-4 humidity">
-					
+				<div class="col-md-4 ">
+					<div id="humidity"></div>
 				</div>
 				<div class="col-md-4 light">
 					<p class="lighttext"><i class="far fa-lightbulb"></i>	Light</p>
@@ -90,9 +90,17 @@
 	</div>
 	<!-- end control -->
 
-	<div class="cover">
-		
+	<div class="pullProcess">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Pull cover</h1>
+					<input class="progress1" step="2" type="range" min="0" max="100" value="0">
+				</div>
+			</div>
+		</div>
 	</div>
-	<!-- end cover -->
+	<!-- end pullProcess -->
+	<script src="js/ControlByHand.js"></script>
 </body>
 </html>
