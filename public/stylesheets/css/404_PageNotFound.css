@@ -40,5 +40,8 @@
 	background-color: #34716A;
 }
 .PageNotFound .btn-success:hover{
-	transition: 0.4s;
+	transition: 1s;
+	color: #34716A;
+	background-color: white;
+	border-color: white;
 }

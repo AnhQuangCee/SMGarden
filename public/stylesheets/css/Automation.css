@@ -1,18 +1,15 @@
 /*HEADER*/
- html,body{
- 	height: 100%;
- 	width: 100%;
- 	overflow-x: hidden;
- }
 .header img{
-	height: 62px;
-	width: 145px;
-	padding: 0.5%;
+	height: 9%;
+	width: 9%;
+  padding: 0.5%;
+  overflow-x: hidden;
 }
 .header{
 	background-color: #34716A;
 }
 
+/* MENU */
 .menu h1{
 	color: #34716A;
 	font-family: 'Lato', sans-serif;
