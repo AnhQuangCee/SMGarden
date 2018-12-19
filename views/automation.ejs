@@ -10,6 +10,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
  	<link rel="stylesheet" href="./stylesheets/css/Automation.css">
+
+	<!-- DateTimePicker-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script> 
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -24,7 +32,7 @@
 			<div class="col-md-12 text-center">
 				<h1>Automation</h1>
 				<div class="btn-group">
-				  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <button type="button"  class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				    Choose vegetable <span class="caret"></span>
 				  </button>
 				  <ul class="dropdown-menu">
@@ -66,9 +74,14 @@
 			<div class="row">
 				<div class="col-md-6 harvestTime">
 					<p><i class="far fa-clock"></i> Harvest time</p>
-					<div class="date text-center">
-						<p>15 Day</p>
+					<div class="form-group">
+					<div class='input-group date' id='datetimepicker1'>
+						<input type='text' class="form-control" />
+						<span class="input-group-addon">
+						<span class="glyphicon glyphicon-calendar calendar1"></span>
+						</span>
 					</div>
+               </div>
 				</div>
 				<div class="col-md-6 pump">
 					<p><img class="icon_pump" src="images/icon_pump.png" alt="">Water pump</p>

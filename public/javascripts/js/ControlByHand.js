@@ -63,3 +63,9 @@ bar.text.style.fontSize = '2rem';
 
 bar.animate(1.0);  // Number from 0.0 to 1.0
 
+
+//DateTimePicker 
+$( document ).ready(function() {
+  $('#datetimepicker1').datetimepicker();
+});
+
