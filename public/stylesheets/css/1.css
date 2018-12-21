@@ -188,10 +188,131 @@
 
 /* MODAL PORTFOLIO */
 .modalPortfolio1 .modal-dialog{
-	width: 1400px;
+	width: 1200px;
     margin: 30px auto;
 }
+.modalPortfolio1 button{
+	height: 100px;
+	width: 100px;
+}
+.modalPortfolio1 button span i{
+	font-size: 60px;
+	color: #348F50;
+}
+.modalPortfolio1 .modal-dialog .row2 h1{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.modalPortfolio1 .modal-dialog .row2 .opening p{
+	font-size: 20px;
+	color: gray;
+}
+.modalPortfolio1 .modal-dialog .row2 .content p{
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+}
+.modalPortfolio1 .modal-dialog .row3 .btn-default{
+	transition: 1s;
+	color: #34716A;
+	background-color: white;
+	border-color: #34716A;
+	padding: 10px 30px;
+	margin: 40px 0px;
+}
+.modalPortfolio1 .modal-dialog .row3 .btn-default:hover{
+	padding: 10px 30px;
+	text-transform: uppercase;
+	border: 1px solid white;
+	background-color: #34716A;
+	color: white;
+}
+/* MODAL PORTFOLIO2 */
+.modalPortfolio2 .modal-dialog{
+	width: 1200px;
+    margin: 30px auto;
+}
+.modalPortfolio2 button{
+	height: 100px;
+	width: 100px;
+}
+.modalPortfolio2 button span i{
+	font-size: 60px;
+	color: #348F50;
+}
+.modalPortfolio2 .modal-dialog .row2 h1{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.modalPortfolio2 .modal-dialog .row2 .opening p{
+	font-size: 20px;
+	color: gray;
+}
+.modalPortfolio2 .modal-dialog .row2 .content p{
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+}
+.modalPortfolio2 .modal-dialog .row3 .btn-default{
+	transition: 1s;
+	color: #34716A;
+	background-color: white;
+	border-color: #34716A;
+	padding: 10px 30px;
+	margin: 40px 0px;
+}
+.modalPortfolio2 .modal-dialog .row3 .btn-default:hover{
+	padding: 10px 30px;
+	text-transform: uppercase;
+	border: 1px solid white;
+	background-color: #34716A;
+	color: white;
+}
 
+/* MODAL PORTFOLIO3 */
+.modalPortfolio3 .modal-dialog{
+	width: 1200px;
+    margin: 30px auto;
+}
+.modalPortfolio3 button{
+	height: 100px;
+	width: 100px;
+}
+.modalPortfolio3 button span i{
+	font-size: 60px;
+	color: #348F50;
+}
+.modalPortfolio3 .modal-dialog .row2 h1{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.modalPortfolio3 .modal-dialog .row2 .opening p{
+	font-size: 20px;
+	color: gray;
+}
+.modalPortfolio3 .modal-dialog .row2 .content p{
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+}
+.modalPortfolio3 .modal-dialog .row3 .btn-default{
+	transition: 1s;
+	color: #34716A;
+	background-color: white;
+	border-color: #34716A;
+	padding: 10px 30px;
+	margin: 40px 0px;
+}
+.modalPortfolio3 .modal-dialog .row3 .btn-default:hover{
+	padding: 10px 30px;
+	text-transform: uppercase;
+	border: 1px solid white;
+	background-color: #34716A;
+	color: white;
+}
 /*RESPONSIVE 640px*/
 /* ----------- iPhone 4 and 4S ----------- */
  
