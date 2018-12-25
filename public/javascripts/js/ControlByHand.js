@@ -26,7 +26,7 @@ var bar = new ProgressBar.Circle(container, {
   }
 });
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-bar.text.style.fontSize = '2rem';
+bar.text.style.fontSize = '50px';
 
 bar.animate(1.0);  // Number from 0.0 to 1.0
 
@@ -59,7 +59,7 @@ var bar = new ProgressBar.Circle(humidity, {
   }
 });
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-bar.text.style.fontSize = '2rem';
+bar.text.style.fontSize = '50px';
 
 bar.animate(1.0);  // Number from 0.0 to 1.0
 

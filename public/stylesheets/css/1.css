@@ -25,7 +25,44 @@
 	width: 100%;
 }
 /*HOME*/
-
+.home .carousel{
+	position: relative;
+}
+.home .carousel .getStarted{
+	position: absolute;
+	margin: auto;
+	top: 40%;
+	left: 14%;
+}
+.home .carousel .getStarted h1,p{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.home .carousel .getStarted h1{
+	font-size: 50px;
+}
+.home .carousel .getStarted p{
+	font-size: 20px;
+}
+.home .carousel .getStarted .btn-default{
+	transition: 1s;
+	font-size: 18px;
+	padding: 10px 30px;
+	border-radius: 40px;
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+}
+.home .carousel .getStarted .btn-default a{
+	color: white;
+}
+.home .carousel .getStarted .btn-default a:hover{
+	color: #34716A;
+}
+.home .carousel .getStarted .btn-default:hover{
+	color: #34716A;
+	background-color: white;
+}
 /*PORTFOLIO*/
 .portfolio{
 	padding: 3% 0%;
@@ -37,7 +74,8 @@
 .portfolio p{
  	font-family: 'Montserrat', sans-serif;
  	font-size: 20px;
- 	padding-bottom: 2%;
+	padding-bottom: 2%;
+	color: black;
 }
 .portfolio .col-md-4 p{
 	font-size: 19px;
@@ -54,7 +92,8 @@
 }
 .about p{
  	font-family: 'Montserrat', sans-serif;
- 	font-size: 20px;
+	font-size: 20px;
+	color:black;
 }
 .about .profile{
 	padding-top: 2%
@@ -139,6 +178,9 @@
  .copyright b{
  	font-size: 20px;
  	padding-left: 5px;
+ }
+ .copyright p{
+	 color: black;
  }
 
 /* MODAL LOGIN */
